@@ -1,0 +1,2 @@
+C:/Users/mehme/flutter_projects/prayer_times_new/android/app/.cxx/Debug/5g84wp14/x86/CMakeFiles/edit_cache.dir
+C:/Users/mehme/flutter_projects/prayer_times_new/android/app/.cxx/Debug/5g84wp14/x86/CMakeFiles/rebuild_cache.dir
