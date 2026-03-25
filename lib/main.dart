@@ -20,26 +20,28 @@ class MyApp extends StatelessWidget {
       create: (_) => PrayerTimeProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Waktu Sholat',
+        title: 'Waqti',
         theme: ThemeData(
-          primaryColor: const Color(0xFF727381),
-          scaffoldBackgroundColor: const Color(0xFFF4F3F1),
-          cardColor: const Color(0xFFBDB8A8),
+          // ✅ Update tema sesuai warna baru (Teal + Gold)
+          primaryColor: const Color(0xFF00695C),
+          scaffoldBackgroundColor: const Color(0xFF004D40),
+          cardColor: Colors.white,
           textTheme: const TextTheme(
             titleMedium: TextStyle(
-              color: Color(0xFF727381),
+              color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
             bodyMedium: TextStyle(
-              color: Color(0xFF727381),
+              color: Colors.white,
             ),
           ),
           appBarTheme: const AppBarTheme(
-            backgroundColor: Color(0xFF727381),
+            backgroundColor: Color(0xFF00695C),
             foregroundColor: Colors.white,
           ),
+          useMaterial3: true,
         ),
-        home: HomeScreen(),
+        home: const HomeScreen(),
       ),
     );
   }
